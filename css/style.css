@@ -1,0 +1,282 @@
+*{
+    color: #5d5d5d;
+    box-sizing: border-box;
+}
+.white{
+    color:antiquewhite;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.logo{
+    width: 70px;
+    /* flex: 1; */
+}
+.logo img{
+    width: 70px;
+}
+nav{
+    /* background-color: blue; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.nav-links{
+    /* background-color:aqua; */
+    display: flex;
+    justify-content: right;
+    flex: 1;
+    padding: 0;
+    height: 60px;   
+    /* align-items: center; */
+  }
+
+.links{
+    /* background-color: bisque; */
+    display:flex;
+    list-style: none;
+    justify-content: space-around;    
+    margin: 0;
+    padding-left: 0;
+    align-items: center;
+    /* flex-wrap: wrap; */
+ 
+}
+header span{
+    padding: 20px 18px;
+    border: 3px solid rgb(227, 45, 45);
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: 18px;
+}
+
+.links li{
+    display: flex;
+    /* background-color: greenyellow; */
+    height: 100%;
+    margin: auto; 
+    margin-left: 0px; 
+    align-items: center;  
+}
+
+.links li a {
+    font-size: 20px;
+    line-height: 100%;
+    padding: 42px;
+    text-decoration: none;
+
+}
+section{
+    width: 100%;
+    padding: 28px;
+    margin: 0;
+   
+}
+.sub-container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 48px;
+    
+
+}
+.main-container{
+    background: linear-gradient(rgba(208, 208, 208, 0.97), rgba(216, 216, 216, 0.985)), url("../images/background/microsoftteams-image-1.jpg");
+}
+
+h1{
+    font-size: 58px;
+    /* background-color: antiquewhite; */
+}
+h3 {
+    font-size: 38px;
+    color: #272a31;
+}
+.small{
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 18px;
+}
+h5{
+    font-size: 25px;
+}
+h6{
+    font-size: 18px;
+    
+
+}
+.p-header{
+    font-weight: bold;
+    font-size: 28px;
+    border-bottom: 0;
+    padding-bottom: 0px;
+}
+.main-program{
+    background: linear-gradient(rgb(39, 42, 49, 0.7), rgba(60, 60, 60, 0.7) ), url("../images/background/black-patterned-art-templates.jpeg");
+    width: 100%;
+    /* height: 400px; */
+    text-align: center;
+    
+
+}
+i, .fa{
+    width: 50px;
+    height: 50px;
+}.row{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin:24px auto;
+   
+}
+.box{
+    flex-basis: 20%;
+    padding: 12px;
+    /* background-color: aliceblue; */
+    align-items: center;
+  
+}
+.box img{
+    height: 56px;
+    cursor: pointer;
+}
+.box h4{
+    color: #ec5242;
+   
+}
+.box p{
+    color: aliceblue;
+}
+.featured .col{
+    display: flex;
+    /* background-color: #ec5242; */
+    flex-basis: 50%;
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.margin-none{
+    margin: 0;;
+}
+
+em{
+    color:red;
+    font-size: 14px;
+
+}
+.featured .col img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+.small-text{
+    font-size: 14px;
+   
+}
+.partners{
+    background-color: #272a31;
+    text-align: center;
+}
+.partners h3{
+    margin: 1px auto 128px;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+    color: antiquewhite;
+    font-size: 26px;
+}
+.partner-logos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.partner-logos span {
+   font-size:32px;
+   width: 80px;
+   height: 80px;
+   filter: grayscale(1);
+   transition: all 0.4s ease-out;
+
+}
+.partner-logos span:hover{
+    filter: grayscale(0);
+}
+
+.partner-logos span img{
+    width: 100%;
+}
+footer img{
+    width: 180px;
+}
+footer{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    gap: 100px;
+}
+.black-bg{
+    background-color: #272a31;
+}
+.about{
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.926), rgba(255, 255, 255, 0.927) ), url("../images/background/Week-19.webp") ;
+    opacity: 1;
+}
+.about h1{
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+.hero-write{
+    max-width: 800px;
+    margin: 34px auto;
+    text-align:center;
+        line-height: 24px;
+    border: 1px solid gray;
+    padding: 12px;
+    background-color: #fff;
+}
+.compact{
+    max-width: 800px;
+    margin: auto auto 50px;
+}
+.img-div{
+    width: 60%;
+    padding: 45px;
+    /* background-color: aquamarine; */
+    border: 1px solid gray;
+
+    margin: auto;
+}
+
+.second img{
+    width: 50%;
+}
+.third h3{
+
+}
+.about-row{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.about-row-col-2 {
+    flex-basis: 45%;
+}
+.about-row-col-2 img{
+    width: 100%;
+}
