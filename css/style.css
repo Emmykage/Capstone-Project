@@ -16,7 +16,7 @@
 
 .sub-container h2::after,
 .partners h3::after,
-.featured h2::after {
+.featured h2::after, .hero h1::after, .third h3::after {
   content: "";
   width: 30px;
   height: 2px;
@@ -25,10 +25,19 @@
   text-align: center;
   margin: 10px auto;
 }
-
+.third h3{
+  font-size: 25px;
+  color: #272a31;
+}
+.third p{
+  margin-bottom: 30px;
+}
 .main-program a {
   text-decoration: underline;
 }
+
+
+
 
 .center {
   text-align: center;
@@ -365,11 +374,44 @@ footer {
   width: 50%;
   display: flex;
   margin: auto;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .about-row-col-2 {
   flex-basis: 45%;
+  position: relative;
+}
+.about-row-col-2 h6{
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: all 0.4s ease-out;
+  opacity: 0;
+}
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  background: transparent;
+  transition: all 0.4s ease-out;
+
+}
+.layer:hover{
+  background-color: rgb(236, 82, 66, 0.5);;
+
+}
+.layer:hover h6{
+  bottom: 50%;
+  opacity: 1;
+
 }
 
 .mobile {
@@ -440,11 +482,10 @@ button:active {
   }
 
   nav.mobile .fa {
-    /* padding-top: 30px; */
-
     margin: 20px 10px 0;
     font-size: 28px;
     color: #ec5242;
+    transition: all 1.4s ease-out;
   }
 
   nav.mobile {
@@ -454,13 +495,8 @@ button:active {
     align-items: center;
     width: 100%;
     position: relative;
-
-    /* background-color: #ec5242; */
   }
 
-  .logo {
-    display: none;
-  }
 
   .links-2 {
     position: absolute;
@@ -502,8 +538,6 @@ button:active {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 18px;
-
-    /* -webkit-font-smoothing: antialiased; */
   }
 
   .p-header {
@@ -523,8 +557,6 @@ button:active {
   .row {
     flex-wrap: wrap;
     width: 100%;
-
-    /* background-color: aqua; */
   }
 
   .box {
@@ -540,8 +572,6 @@ button:active {
   .box img,
   .box h4 {
     flex-basis: 25%;
-
-    /* width: 2px; */
   }
 
   .box p {
@@ -551,12 +581,9 @@ button:active {
 
   .sub-container {
     width: 100%;
-
-    /* background-color: aquamarine; */
   }
 
   .featured .col {
-    /* background-color: #5d5d5d; */
     flex-basis: 100%;
     align-items: stretch;
     margin-top: 0;
@@ -593,8 +620,6 @@ button:active {
 
   .footer-img {
     flex-basis: 100%;
-
-    /* background-color: aqua; */
     height: 100px;
   }
 
@@ -632,5 +657,17 @@ button:active {
 
   .desktop-view {
     display: none;
+  }
+  
+.about-row {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  .about-row-col-2 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
   }
 }
