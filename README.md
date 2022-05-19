@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+# Annual Engineering Summit Website
 
-> Annual Global Engineering summit Website 
+> In this project, I built a responsive website that hold details to an Annual Engineering conference supposedly to be held in califonia. It is based on the original design idea by Cindy Shin in Behance. -HTML CSS JS best practices. -Responsive Web Design.
 
 
 ## Built With
 
-- HTML and CSS
+- HTML, CSS and Javascript
 - Git and Github
 
 
