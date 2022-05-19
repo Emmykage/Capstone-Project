@@ -16,7 +16,9 @@
 
 .sub-container h2::after,
 .partners h3::after,
-.featured h2::after, .hero h1::after, .third h3::after {
+.featured h2::after,
+.hero h1::after,
+.third h3::after {
   content: "";
   width: 30px;
   height: 2px;
@@ -25,19 +27,19 @@
   text-align: center;
   margin: 10px auto;
 }
-.third h3{
+
+.third h3 {
   font-size: 25px;
   color: #272a31;
 }
-.third p{
+
+.third p {
   margin-bottom: 30px;
 }
+
 .main-program a {
   text-decoration: underline;
 }
-
-
-
 
 .center {
   text-align: center;
@@ -382,7 +384,8 @@ footer {
   flex-basis: 45%;
   position: relative;
 }
-.about-row-col-2 h6{
+
+.about-row-col-2 h6 {
   color: #fff;
   position: absolute;
   left: 50%;
@@ -392,6 +395,7 @@ footer {
   transition: all 0.4s ease-out;
   opacity: 0;
 }
+
 .layer {
   position: absolute;
   width: 100%;
@@ -402,16 +406,15 @@ footer {
   color: #fff;
   background: transparent;
   transition: all 0.4s ease-out;
-
 }
-.layer:hover{
-  background-color: rgb(236, 82, 66, 0.5);;
 
+.layer:hover {
+  background-color: rgb(236, 82, 66, 0.5);
 }
-.layer:hover h6{
+
+.layer:hover h6 {
   bottom: 50%;
   opacity: 1;
-
 }
 
 .mobile {
@@ -497,7 +500,6 @@ button:active {
     position: relative;
   }
 
-
   .links-2 {
     position: absolute;
     left: -100%;
@@ -526,7 +528,8 @@ button:active {
   .links-2 li a {
     color: #fff;
   }
-  .links-2 li a:hover{
+
+  .links-2 li a:hover {
     color: #ec5242;
   }
 
@@ -623,8 +626,6 @@ button:active {
     height: 100px;
   }
 
-
-
   footer .footer-col {
     width: 100%;
     margin-top: 0;
@@ -658,14 +659,15 @@ button:active {
   .desktop-view {
     display: none;
   }
-  
-.about-row {
-  width: 80%;
-  display: flex;
-  margin: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
+  .about-row {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .about-row-col-2 {
     flex-basis: 100%;
     margin-bottom: 20px;

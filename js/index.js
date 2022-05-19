@@ -9,12 +9,12 @@ function showMenu() {
     links.style.left = '0';
     toggle.classList.add('fa-times');
     toggle.classList.remove('fa-bars');
-    logo.style.display = "none"
+    logo.style.display = 'none';
   } else {
     links.style.left = '-100%';
     toggle.classList.add('fa-bars');
     toggle.classList.remove('fa-times');
-    logo.style.display = "block"
+    logo.style.display = 'block';
   }
 }
 menuBtn.addEventListener('click', showMenu);
