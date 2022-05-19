@@ -2,6 +2,7 @@
   color: #5d5d5d;
   box-sizing: border-box;
   margin: 0;
+  font-family: lato, sans-serif;
 }
 
 .white {
@@ -12,7 +13,17 @@
   max-width: 100%;
   margin: auto;
 }
+.sub-container h2::after,.partners h3::after, .featured h2::after{
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
 
+
+}
 .main-program a {
   text-decoration: underline;
 }
@@ -24,7 +35,6 @@
 .logo {
   width: 70px;
 
-  /* flex: 1; */
 }
 
 footer img {
@@ -161,6 +171,7 @@ h5 {
 
 h6 {
   font-size: 18px;
+  margin-top: 8px;
 }
 
 .p-header {
@@ -188,15 +199,16 @@ i,
 }
 
 .row {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
-  gap: 8px;
+  gap: 0px;
   margin: 24px auto;
+  flex-wrap: wrap;
 }
 
 .box {
-  flex-basis: 20%;
+  flex-basis: 19%;
   padding: 12px;
   background: rgba(102, 102, 107, 0.3);
   align-items: center;
@@ -224,14 +236,16 @@ i,
 
 .featured .col {
   display: flex;
-
-  /* background-color: #ec5242; */
   flex-basis: 50%;
-  padding: 0;
+  padding: 4px 12px 4px 0;
   margin-bottom: 10px;
   line-height: 20px;
-  padding-right: 12px;
-  cursor: pointer;
+   cursor: pointer;
+   margin-bottom: 18px;
+  /* border: 1px solid black; */
+ 
+ 
+ 
 }
 
 .margin-none {
@@ -358,7 +372,48 @@ footer {
 .mobile {
   display: none;
 }
+hr{
+  width: 20px;
+  background-color: #5d5d5d;
+  margin: 8px 0;
+}
+button{
+  position: relative;
+  left: 50%; 
+  width: 80%;
+  transform: translateX(-50%);
+  background-color: #ec5242;
+  color: #fff;
+  font-weight: 600;
+  display: none;
+  align-items: center;
+  height:40px;
+  text-align: center;
+  justify-content: center;
+ 
+  
+}
+button:hover{
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+}
+button:active{
+  background-color: #ec5242;
+  color: #fff;
 
+}
+.arrow{
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+ 
+}
+.mobile-view{
+  display: none;
+}
 @media (max-width: 768px) {
   header {
     display: none;
@@ -522,9 +577,26 @@ h1 {
     }
     footer .footer-col p{
       font-size: 14px;
-      margin-top: ;
+      margin-top: 
+    }
+    .col:nth-child(3),.col:nth-child(4),.col:nth-child(5),.col:nth-child(6){
+      display: none;
+    }
+    button{
+      display: flex;
     }
 
+    .main-program .mobile-view{
+      background-color: #ec5242;
+      padding: 16px 42px;
+      font-size: 13px;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 500;
+    }
+    .desktop-view{
+      display: none;
+    }
 
 }
 
