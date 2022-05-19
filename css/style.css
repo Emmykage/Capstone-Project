@@ -28,6 +28,11 @@
   margin: 10px auto;
 }
 
+h3 {
+  font-size: 38px;
+  color: #272a31;
+}
+
 .third h3 {
   font-size: 25px;
   color: #272a31;
@@ -169,11 +174,6 @@ h1 {
   font-weight: 800;
 
   /* -webkit-font-smoothing: antialiased; */
-}
-
-h3 {
-  font-size: 38px;
-  color: #272a31;
 }
 
 .small {
