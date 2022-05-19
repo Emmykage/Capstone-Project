@@ -442,7 +442,7 @@ button:active {
   nav.mobile .fa {
     /* padding-top: 30px; */
 
-    margin: 20px 40px 0;
+    margin: 20px 10px 0;
     font-size: 28px;
     color: #ec5242;
   }
@@ -489,6 +489,9 @@ button:active {
 
   .links-2 li a {
     color: #fff;
+  }
+  .links-2 li a:hover{
+    color: #ec5242;
   }
 
   .small {
