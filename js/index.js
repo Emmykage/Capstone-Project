@@ -47,7 +47,7 @@ const speakers = [{
   name: 'stacey bent',
   caption: 'Chemical Engineering, TomKat Center for Sustainable Energy',
   info: 'philip has worked in the field of robotic and artificial intelligence for over 30 years and published several studies over the years',
-  image: './images/speakers/speaker_05.png' ,
+  image: './images/speakers/speaker_05.png',
 },
 {
   name: 'Sarah Billington',
@@ -65,7 +65,7 @@ const speakers = [{
   name: 'Robert Souliere',
   caption: 'MIT Professor of Robotics and Artificial intellegience',
   info: 'Experienced in renewable energy and automotive with over eight years of experience in the automotive industry',
-  image:  './images/speakers/speaker_02.png',
+  image: './images/speakers/speaker_02.png',
 },
 {
   name: 'DANIEL M. KAMMEN',
