@@ -33,6 +33,10 @@ h3 {
   color: #272a31;
 }
 
+footer p {
+  margin-bottom: 12px;
+}
+
 .third h3 {
   font-size: 25px;
   color: #272a31;
@@ -63,7 +67,6 @@ footer img {
 }
 
 nav {
-  /* background-color: blue; */
   width: 80%;
   margin: auto;
   display: flex;
@@ -75,27 +78,21 @@ nav {
 }
 
 .nav-links {
-  /* background-color:aqua; */
   display: flex;
   justify-content: right;
   flex: 1;
   padding: 0;
   height: 60px;
-
-  /* align-items: center; */
 }
 
 .links,
 .links-2 {
-  /* background-color: bisque; */
   display: flex;
   list-style: none;
   justify-content: space-around;
   margin: 0;
   padding-left: 0;
   align-items: center;
-
-  /* flex-wrap: wrap; */
 }
 
 header span {
@@ -111,8 +108,6 @@ header span {
 .links li,
 .links-2 li {
   display: flex;
-
-  /* background-color: greenyellow; */
   height: 100%;
   margin: auto 5px auto 0;
   align-items: center;
@@ -124,8 +119,6 @@ header span {
   line-height: 100%;
   padding: 28px;
   text-decoration: none;
-
-  /* background-color: blue; */
 }
 
 .links li a:hover,
@@ -172,8 +165,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-
-  /* -webkit-font-smoothing: antialiased; */
 }
 
 .small {
@@ -258,8 +249,6 @@ i,
   line-height: 20px;
   cursor: pointer;
   margin-bottom: 18px;
-
-  /* border: 1px solid black; */
 }
 
 .margin-none {
@@ -330,7 +319,9 @@ footer {
   display: flex;
   padding: 80px;
   justify-content: center;
+  align-items: center;
   gap: 100px;
+  text-align: center;
 }
 
 .black-bg {
@@ -607,9 +598,9 @@ button:active {
   }
 
   .partner-logos {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 
   footer {
