@@ -354,6 +354,23 @@ footer {
   padding: 12px;
   background-color: #fff;
 }
+.top-body{
+  display: flex;
+  padding-right: 48px;
+  background-color: #000;
+  justify-content: end;
+
+}
+.top-body span {
+  margin: auto 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.top-body span.fa{
+  display: inline-block;
+  padding: 0;
+  height: 100%;
+} 
 
 .compact {
   max-width: 800px;
@@ -471,6 +488,10 @@ button:active {
 }
 
 @media (max-width: 768px) {
+  
+.top-body{
+  display: none;
+}
   header {
     display: none;
   }
