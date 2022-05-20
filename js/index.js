@@ -42,36 +42,36 @@ const speakers = [{
   name: 'Engr Philip Coleman',
   caption: 'MIT Professor of Robotics and Artificial intellegience',
   info: 'philip has worked in the field of robotic and artificial intelligence for over 30 years and published several studies over the years',
-  image: './images/speakers/Enoch-F-Sam.jpg',
+  image: './images/speakers/speaker_01.png',
 }, {
   name: 'stacey bent',
   caption: 'Chemical Engineering, TomKat Center for Sustainable Energy',
   info: 'philip has worked in the field of robotic and artificial intelligence for over 30 years and published several studies over the years',
-  image: './images/speakers/stacey-bent.jfif',
+  image: './images/speakers/speaker_02.png',
 },
 {
   name: 'Sarah Billington',
   caption: 'UPS Foundation Professor and Senior Fellow at the Woods Institute for the Environment',
   info: 'We are interested in how building management systems can be extended beyond providing energy savings, thermal comfort, and security to support and maintain a broader set of human ',
-  image: './images/speakers/sarah-billington-1600-1.jpg',
+  image: './images/speakers/speaker_03.png',
 },
 {
   name: 'Prof ANDREI G. FEDOROV',
   caption: 'Petit Institute for Bioengineering and Bioscience',
   info: 'He is a mechanical engineering professor at Georgia Tech, investigates C02 capture and utilization among other research topics',
-  image: './images/speakers/ANDREI-FEDOROV.jpg',
+  image: './images/speakers/speaker_04.png',
 },
 {
   name: 'Robert Souliere',
   caption: 'MIT Professor of Robotics and Artificial intellegience',
   info: 'Experienced in renewable energy and automotive with over eight years of experience in the automotive industry',
-  image: './images/speakers/robert_souliere.jpg',
+  image: './images/speakers/speaker_05.png',
 },
 {
   name: 'DANIEL M. KAMMEN',
   caption: 'Professor in the Energy and Resources Group Energy and Resources Group (ERG)',
   info: 'Kammen is the founding director of the Renewable and Appropriate Energy Laboratory (RAEL), Co-Director of the Berkeley Institute of the Environment, and Director of the Transportation Sustainability Research Center.',
-  image: './images/speakers//ANDREI-FEDOROV.jpg',
+  image: './images/speakers/speaker_06.png',
 },
 ];
 

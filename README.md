@@ -59,8 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Reviewers
-- standUp team
+- i want to Ackowledge Cindy Shin whose original design was used to make this website
 
 
 ## 📝 License
