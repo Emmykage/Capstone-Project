@@ -663,11 +663,11 @@ button:active {
     justify-content: space-between;
     align-items: center;
     padding: 60px 8px;
-    gap: 0;
+    gap: 2%;
   }
 
   .footimg {
-    flex-basis: 40%;
+    flex-basis: 38%;
     height: 100px;
   }
 
@@ -683,6 +683,7 @@ button:active {
   footer .footer-col p {
     font-size: 14px;
     margin-top: 0;
+    
   }
 
   .col:nth-child(3),
