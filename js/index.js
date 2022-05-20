@@ -5,13 +5,13 @@ function showMenu() {
   const links = document.querySelector('.links-2');
   const toggle = document.querySelector('.open');
 
-  if (links.style.left === '-100%') {
+  if (links.style.left === '-120%') {
     links.style.left = '0';
     toggle.classList.add('fa-times');
     toggle.classList.remove('fa-bars');
     logo.style.display = 'none';
   } else {
-    links.style.left = '-100%';
+    links.style.left = '-120%';
     toggle.classList.add('fa-bars');
     toggle.classList.remove('fa-times');
     logo.style.display = 'block';
