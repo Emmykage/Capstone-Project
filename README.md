@@ -37,16 +37,6 @@ enter "git clone [copied link]
 
 Download and view file
 
-### Install
-N/A
-
-### Usage
-N/A
-
-### Run tests
-N/A
-### Deployment
-
 
 
 ## Authors
