@@ -27,6 +27,14 @@ To get a local copy up and running follow these simple example steps.
   None
 
 ### Setup
+click on the code tab on the repository
+download the Zip folder to your computer 
+open file locally
+
+copy the link from the repository
+open terminal 
+enter "git clone [copied link]
+
 Download and view file
 
 ### Install
@@ -51,6 +59,7 @@ N/A
 
 
 ## 🤝 Contributing
+https://github.com/Emmykage/Capstone-Project/issues
 
 Thanks to everyone who contributed
 
